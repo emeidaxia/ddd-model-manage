@@ -3,12 +3,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+
     <groupId>com.ccb.emm</groupId>
-    <artifactId>model-manage-core</artifactId>
+    <artifactId>model-manage-register</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>model-manage-core</name>
+
+    <name>demo-service</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -24,17 +26,15 @@
     </properties>
 
     <dependencies>
+        <!-- 添加 model-manage-core 的依赖 -->
+<!--        <dependency>-->
+<!--            <groupId>com.ccb.emm</groupId>-->
+<!--            <artifactId>model-manage-core</artifactId>-->
+<!--            <version>0.0.1-SNAPSHOT</version>-->
 
-        <dependency>
-            <groupId>org.apache.kafka</groupId>
-            <artifactId>kafka-clients</artifactId>
-            <version>2.4.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.62</version>
-        </dependency>
+
+<!--        </dependency>-->
+
 
     </dependencies>
 
